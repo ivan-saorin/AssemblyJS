@@ -1,0 +1,28 @@
+{
+  "name": "AssemblyJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ivan-saorin/AssemblyJS",
+  "description": "Minimal Javascript Framework that allow to assemble SPAs using different micro libraries",
+  "main": "index.html",
+  "keywords": [
+    "javascript",
+    "framework"
+  ],
+  "authors": [
+    "Ivan Saorin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  ,
+  "dependencies": {
+    "basket.js": "*",
+    "rsvp": "3.0.13"
+  },
+  "devDependencies": {}
+}
