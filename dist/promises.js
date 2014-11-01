@@ -1,1 +1,1 @@
-"use strict";define(["bower_components/rsvp/rsvp.js"],function(e){return Promises={Promise:e.Promise,defer:e.defer,all:e.all,resolve:function(r){var s=e.defer();return s.resolve(r),s.promise},reject:function(r){var s=e.defer();return s.reject(r),s.promise}}});
+"use strict";define(["bower_components/rsvp/rsvp.js"],function(e){var r={Promise:e.Promise,defer:e.defer,all:e.all,resolve:function(r){var n=e.defer();return n.resolve(r),n.promise},reject:function(r){var n=e.defer();return n.reject(r),n.promise}};return r});

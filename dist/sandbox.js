@@ -1,1 +1,1 @@
-"use strict";define(["bower_components/assemblyjs/dist/promises.js"],function(){return Sandbox=function(n,r){for(var s={},e=0;e<r.length;e++){var o=r[e];n.hasOwnProperty(o)?s[o]=n[o]:n.plugins.hasOwnProperty(o)&&(s[o]=n.plugins[o].resolved)}return s}});
+"use strict";define(["bower_components/assemblyjs/dist/promises.js"],function(){var r=function(r,s){for(var e={},n=0;n<s.length;n++){var t=s[n];r.hasOwnProperty(t)?e[t]=r[t]:r.plugins.hasOwnProperty(t)&&(e[t]=r.plugins[t].resolved)}return e};return r});
