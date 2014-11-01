@@ -1,0 +1,1 @@
+"use strict";define(["bower_components/rsvp/rsvp.js"],function(e){return Promises={Promise:e.Promise,defer:e.defer,all:e.all,resolve:function(r){var s=e.defer();return s.resolve(r),s.promise},reject:function(r){var s=e.defer();return s.reject(r),s.promise}}});

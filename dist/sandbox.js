@@ -1,0 +1,1 @@
+"use strict";define(["scripts/assemblyjs/promises.js"],function(){return Sandbox=function(r,s){for(var n={},e=0;e<s.length;e++){var t=s[e];r.hasOwnProperty(t)?n[t]=r[t]:r.plugins.hasOwnProperty(t)&&(n[t]=r.plugins[t].resolved)}return n}});

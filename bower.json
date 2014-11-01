@@ -1,6 +1,6 @@
 {
   "name": "AssemblyJS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/ivan-saorin/AssemblyJS",
   "repository": "ivan-saorin/AssemblyJS",
   "description": "Minimal Javascript Framework that allow to assemble SPAs using different micro libraries",
