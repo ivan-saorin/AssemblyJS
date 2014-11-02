@@ -1,5 +1,5 @@
-AssemblyJS
-==========
+![AssemblyJS](/img/assemblyjs_logo_horizontal.jpg "AssemblyJS")
+
 
 Minimal Javascript Framework that allow to assemble SPAs using different micro libraries
 
