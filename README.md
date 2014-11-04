@@ -70,18 +70,20 @@ T.B.D.
 
 The folowing represents the *state diagram* of the framework lifecycle:
 
-insert image here!
+![AssemblyJS](/img/AssembleJS-StateDiagram.png "AssemblyJS")
 
 When the application starts the AssemblyJS framework is idle in an uninstall state.
 
+![AssemblyJS](/img/PomisedOperation.png "AssemblyJS")
+
 ### Modules' life cycle ###
 
-insert image here!
+![AssemblyJS](/img/assemblyjs_logo_horizontal.png "AssemblyJS")
 
 ### Framework and Modules life cycles ###
 The following diagram illustrates the combined life cycle of the framework and the modules.
 
-![AssemblyJS lifecycle - sequence diagram](http://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgQXNzZW1ibHlKUyBMaWZlIEN5Y2xlCgpub3RlIHJpZ2h0IG9mIEFwcGxpY2F0aW9uOiBGcmFtZXdvcmsgdW5pbnN0YWxsZWQKABgLLT4rAEwKOiAAHQcgKCBtb2R1bGVzQW5kUGx1Z2luc0NmZ1tdICkKAHsKLS0-LQBhDVByb21pc2UKb3B0IGZvckVhY2gAQQcgaW4AQBIKICAgAIFJCy0-K00AcAUAewxjZmcgKQAkBQAWBgBvBQCBJgsAawgAFwsAPQphc3luYwAODQAvDXJlc29sdgA2BgCCNQ8AgggLAIEOBiBJAII1CWVuZACBeQwAgjMOAG0GAIFJDACCFQ4AbAgAgw8lAGoKAINIGwCDGAcgYXJlIHJlYWR5AIN0HACCWwYAJwYAg2wkc3RhcnQAhAQKVG9CZVN0YXJ0ZWQAg0dFAEULAINzGgCAfwUAgn-BBEFjdGl2ZQCDFWthAGsGAIMpJwCDJwUAgy8fb3AAgz0Qb3BwAIMATQBLBQCDMRxvcACGS4EEAIEhCACGY2pzAIIUBwCDJSkAgkQGAIsSGgCLSQkAim8kAIhLZgCMWQwKCgoK&s=roundgreen)
+![AssemblyJS lifecycle - sequence diagram](AssemblyJSFrameworkModulesLifecycles.png)
 
 Things that worth to be noted:
 
