@@ -16,7 +16,7 @@ Both the framework life-cycle and the Module life-cycle rely on promises (provid
 
 ### Single Page Application architecture ###
 
-insert image here!
+![AssemblyJS architecture diagram](/img/AssemblyJSArchitecture.png "AssemblyJS architecture diagram")
 
 ### Plugins ###
 
@@ -70,15 +70,17 @@ T.B.D.
 
 The folowing represents the *state diagram* of the framework lifecycle:
 
-![AssemblyJS](/img/AssembleJS-StateDiagram.png "AssemblyJS")
+![AssemblyJS state diagram](/img/AssembleJS-StateDiagram.png "AssemblyJS state diagram")
 
 When the application starts the AssemblyJS framework is idle in an uninstall state.
+TBD
 
-![AssemblyJS](/img/PomisedOperation.png "AssemblyJS")
+![AssemblyJS promised operation sequence diagram](/img/PomisedOperation.png "AssemblyJS promised operation sequence diagram")
+
 
 ### Modules' life cycle ###
 
-![AssemblyJS](/img/assemblyjs_logo_horizontal.png "AssemblyJS")
+TBD
 
 ### Framework and Modules life cycles ###
 The following diagram illustrates the combined life cycle of the framework and the modules.
