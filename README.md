@@ -85,7 +85,7 @@ TBD
 ### Framework and Modules life cycles ###
 The following diagram illustrates the combined life cycle of the framework and the modules.
 
-![AssemblyJS lifecycle - sequence diagram](AssemblyJSFrameworkModulesLifecycles.png)
+![AssemblyJS lifecycle - sequence diagram](/img/AssemblyJSFrameworkModulesLifecycles.png)
 
 Things that worth to be noted:
 
