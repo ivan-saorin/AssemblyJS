@@ -14,6 +14,70 @@ We anyway felt free to take the initial inspiration but go a little bit further 
 
 Both the framework life-cycle and the Module life-cycle rely on promises (provided by the [http://www.tilde.io](http://www.tilde.io "tildeio")/rsvp[5] library.
 
+### Single Page Application architecture ###
+
+insert image here!
+
+### Plugins ###
+
+Generally speaking **Plugins** are [AMD](http://en.wikipedia.org/wiki/Asynchronous_module_definition "AMD") modules exposing some utilities or services.
+
+The following example is a **Plugin** that expose a *sum* function to the outside world.
+It  return the result of the *sum* of two parameters *a* and *b* in form of a *Promise*. To do that the *Promises* module is imported throug the define statement.
+In case the value of the parameter is lower than 10 the *Promise* will be rejected, otherwise the *Promise* will be fullfilled.
+
+
+```javascript
+define(['bower_components/assemblyjs/dist/promises.js'], function( Promises ) {
+
+  function _sum(a, b) {
+      var promise = new Promises.Promise(function(resolve, reject) {
+        if (a < 10) {
+          setTimeout(function () { resolve(a + b) }, 100);
+        }
+        else {
+          reject('a must be  < 10');
+        }
+      });
+
+      return promise;
+  }
+
+  var SumPlugin = {
+    sum: _sum,
+  }
+
+  return SumPlugin;
+});
+```
+
+Of course Plugins could expose complex functionalities. In general Service maps very well as a concept with Plugins.
+
+Plugins are exposed to the framework after the install phase (see: Framework Life cycle). It is possible to configure a plugin to be automatically exposed to the **Sandbox**.
+
+### Sandbox ###
+
+As said before AssembyJS allows to work with the Sandbox Pattern. The Sandbox patter is a thin layer existing betwen the Framework Core and each Module, so that a Module is aware only of the functionalities exposed in the Sandbox.
+
+During the install phase of the Framework it is possible decide which Plugins are automatically exposed throug the Sandbox. Remember: each modules will communicate with the outside world only through the Plugins exposed in the Sandbox.
+
+### Modules ###
+
+T.B.D.
+
+
+### The framework's life cycle ###
+
+The folowing represents the *state diagram* of the framework lifecycle:
+
+insert image here!
+
+When the application starts the AssemblyJS framework is idle in an uninstall state.
+
+### Modules' life cycle ###
+
+insert image here!
+
 ### Framework and Modules life cycles ###
 The following diagram illustrates the combined life cycle of the framework and the modules.
 
